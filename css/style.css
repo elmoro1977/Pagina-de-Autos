@@ -1,0 +1,130 @@
+
+/* incluyo imagen de fondo  */
+
+.fondo::after{
+    content: "";
+    background-image: url(../assets/img/background2.jpg);
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+
+  
+}
+
+/* aajusto el ancho del carousel */
+.ancho-carusel {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+/* coloco color blanco a las letras del carrousel */
+.carousel-dark .carousel-caption {
+    color: #f8f9fa;
+}
+
+
+/* ajustamos el row para que quede centrado */
+.row {
+    justify-content: center;
+
+}
+
+/* margin y color a las cards */
+.card {
+    margin: 20px;
+    background-color: #F1FFFA;
+    align-content: center;
+}
+
+/* alineacion del texto de las card */
+.card-text {
+    text-align: center;
+}
+
+/* alineacion del titulo de las card */
+.card-title {
+    text-align: center;
+}
+
+/* ajustamos color y centrado de los botones */
+.btn {
+    /* display: flex; */
+    justify-content: center;
+    background-color: #1D4E89;
+    color: #f8f9fa;
+   
+}
+
+
+/*  le damos padding a las imagenes de las cards */
+.card-img, .card-img-top {
+
+    padding-top: 10px;
+}
+
+/* ajuste de las li */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+li {
+    list-style: none;
+    text-align:center;
+}
+
+/* color de fondo */
+.color-fondo {
+    background-color: #1D4E89;
+}
+
+
+/* americanos.html */
+.text-color {
+    color: #1D4E89;
+}
+
+/* ajuste del display de los logos */
+.container-logos {
+    display: flex; 
+    justify-content: center;
+}
+
+/* ajuste de las cars */
+.card-ford {
+    background-color: #1D4E89;
+    color: white;
+}
+
+.ford{
+
+    background-color: #1D4E89;
+    color: white;
+
+}
+
+.card-Chevro {
+    background-color: #FCAB10;
+    color: white;
+}
+
+.chev {
+    background-color: #FCAB10;
+    color: white;
+}
+
+.dodge {
+    background-color: #FF4242;
+    color: white;
+}
+
+.card-dodge {
+    background-color: #FF4242;
+    color: white;
+}
